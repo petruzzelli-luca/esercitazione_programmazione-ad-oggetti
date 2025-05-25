@@ -7,8 +7,7 @@ studente1 = Studente(ins_nome, ins_classe)
 messaggio=input("vuoi aggiungere de voti allo studente?? si/no: ")
 if messaggio == "si":
     while True:
-        voto=int(input(aggiung un voto: ))
-        aggiungi_voto()
+        voto=int(input("aggiung un voto: "))
         studente1.aggiungi_voto(voto)
         messaggio1=input("devi inserire unaltro voto?? si/no: ")
         if messaggio1 != "si":

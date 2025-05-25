@@ -14,8 +14,8 @@ class Studente:
         return sum(self.voti) / len(self.voti)
 
 
-    def set_nome(self, nuovo_nome): 
-        if nuovo_nome != "":
-            self.nome = nuovo_nome
-
-
+    def set_nome(self): 
+        print("nome", self.nome)
+        print("classe", self.classe)
+        print("numero di voti", len(self.voti))
+        print("media voti", len(self.voti))
